@@ -194,7 +194,7 @@ export const QRInputs: React.FC = () => {
                         onChange={(e) =>
                            setFormValue("vcard", { firstName: e.target.value })
                         }
-                        placeholder="Alex"
+                        placeholder="First Name"
                         className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-2.5 focus:outline-none"
                      />
                   </div>
@@ -208,7 +208,7 @@ export const QRInputs: React.FC = () => {
                         onChange={(e) =>
                            setFormValue("vcard", { lastName: e.target.value })
                         }
-                        placeholder="Morgan"
+                        placeholder="Last Name"
                         className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-2.5 focus:outline-none"
                      />
                   </div>
@@ -227,7 +227,7 @@ export const QRInputs: React.FC = () => {
                               organization: e.target.value,
                            })
                         }
-                        placeholder="Tech Corp"
+                        placeholder="Ongoing / Company Name"
                         className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-2.5 focus:outline-none"
                      />
                   </div>
@@ -241,7 +241,7 @@ export const QRInputs: React.FC = () => {
                         onChange={(e) =>
                            setFormValue("vcard", { title: e.target.value })
                         }
-                        placeholder="Senior Director"
+                        placeholder="Job Title"
                         className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-2.5 focus:outline-none"
                      />
                   </div>
@@ -260,7 +260,7 @@ export const QRInputs: React.FC = () => {
                               phoneMobile: e.target.value,
                            })
                         }
-                        placeholder="+1 555-019-2834"
+                        placeholder="Number"
                         className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-2.5 focus:outline-none"
                      />
                   </div>
@@ -274,7 +274,7 @@ export const QRInputs: React.FC = () => {
                         onChange={(e) =>
                            setFormValue("vcard", { email: e.target.value })
                         }
-                        placeholder="alex@example.com"
+                        placeholder="your@example.com"
                         className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-2.5 focus:outline-none"
                      />
                   </div>
@@ -310,7 +310,7 @@ export const QRInputs: React.FC = () => {
                      onChange={(e) =>
                         setFormValue("email", { email: e.target.value })
                      }
-                     placeholder="recipient@domain.com"
+                     placeholder="recipient@example.com"
                      className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-3 focus:outline-none"
                   />
                   {formValues.email.email &&
@@ -364,7 +364,7 @@ export const QRInputs: React.FC = () => {
                      onChange={(e) =>
                         setFormValue("phone", { phoneNumber: e.target.value })
                      }
-                     placeholder="+15550192834"
+                     placeholder="Number"
                      className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-3 focus:outline-none"
                   />
                   {formValues.phone.phoneNumber &&
@@ -390,7 +390,7 @@ export const QRInputs: React.FC = () => {
                      onChange={(e) =>
                         setFormValue("sms", { phoneNumber: e.target.value })
                      }
-                     placeholder="+15550192834"
+                     placeholder="Recipient Number"
                      className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-3 focus:outline-none"
                   />
                </div>
@@ -427,7 +427,7 @@ export const QRInputs: React.FC = () => {
                               latitude: e.target.value,
                            })
                         }
-                        placeholder="37.7749"
+                        placeholder="Latitude"
                         className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-3 focus:outline-none font-mono"
                      />
                   </div>
@@ -443,7 +443,7 @@ export const QRInputs: React.FC = () => {
                               longitude: e.target.value,
                            })
                         }
-                        placeholder="-122.4194"
+                        placeholder="Longitude"
                         className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-3 focus:outline-none font-mono"
                      />
                   </div>
@@ -458,7 +458,7 @@ export const QRInputs: React.FC = () => {
                      onChange={(e) =>
                         setFormValue("location", { query: e.target.value })
                      }
-                     placeholder="Times Square, New York, NY"
+                     placeholder="e.g. Tokyo Tower, Japan"
                      className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-3 focus:outline-none"
                   />
                </div>
@@ -478,7 +478,7 @@ export const QRInputs: React.FC = () => {
                      onChange={(e) =>
                         setFormValue("event", { title: e.target.value })
                      }
-                     placeholder="Product Launch Keynote"
+                     placeholder="Event Title"
                      className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-3 focus:outline-none"
                   />
                </div>
@@ -544,7 +544,7 @@ export const QRInputs: React.FC = () => {
                      onChange={(e) =>
                         setFormValue("event", { location: e.target.value })
                      }
-                     placeholder="Grand Hall, Tech Plaza"
+                     placeholder="Event Location (e.g. Grand Hall, Tech Plaza)"
                      className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-3 focus:outline-none"
                   />
                </div>
@@ -585,7 +585,7 @@ export const QRInputs: React.FC = () => {
                         onChange={(e) =>
                            setFormValue("crypto", { address: e.target.value })
                         }
-                        placeholder="1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa or 0x..."
+                        placeholder="Enter wallet address"
                         className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-3 focus:outline-none font-mono text-xs"
                      />
                   </div>
@@ -615,7 +615,7 @@ export const QRInputs: React.FC = () => {
                         onChange={(e) =>
                            setFormValue("crypto", { amount: e.target.value })
                         }
-                        placeholder="0.005"
+                        placeholder="Amount (e.g. 0.01)"
                         className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-3 focus:outline-none font-mono"
                      />
                   </div>
@@ -629,7 +629,7 @@ export const QRInputs: React.FC = () => {
                         onChange={(e) =>
                            setFormValue("crypto", { label: e.target.value })
                         }
-                        placeholder="Invoice #1042"
+                        placeholder="Payment Label (e.g. Order #1234)"
                         className="w-full bg-slate-950 border border-slate-800 text-slate-100 text-sm rounded-xl p-3 focus:outline-none"
                      />
                   </div>
