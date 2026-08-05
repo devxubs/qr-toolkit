@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+   /* Primary */
+   --color-primary-50: #c8fad6;
+   --color-primary-100: #5be49b;
+   --color-primary-500: #00a76f;
+   --color-primary-700: #007867;
+   --color-primary-900: #004b50;
+
+   /* Secondary */
+   --color-secondary-50: #fdefff;
+   --color-secondary-100: #c684ff;
+   --color-secondary-500: #8e33ff;
+   --color-secondary-700: #511987;
+   --color-secondary-900: #27097a;
+
+   /* Info  */
+   --color-info-50: #cafdf5;
+   --color-info-100: #61f3f3;
+   --color-info-500: #00b8d9;
+   --color-info-700: #006c9c;
+   --color-info-900: #003768;
+
+   /* Success */
+   --color-success-50: #d3fcd2;
+   --color-success-100: #77ed8b;
+   --color-success-500: #22c55e;
+   --color-success-700: #118d57;
+   --color-success-900: #065e49;
+
+   /* Warning */
+   --color-warning-50: #fff5cc;
+   --color-warning-100: #ffd666;
+   --color-warning-500: #ffa800;
+   --color-warning-700: #b76e00;
+   --color-warning-900: #7a4100;
+
+   /* Error */
+   --color-error-50: #ffe9d5;
+   --color-error-100: #ffac82;
+   --color-error-500: #ff5630;
+   --color-error-700: #d41918;
+   --color-error-900: #7a0916;
+
+   /* Gray */
+   --color-gray-0: #ffffff;
+   --color-gray-50: #f9fafb;
+   --color-gray-100: #f4f6f8;
+   --color-gray-200: #edf1f5;
+   --color-gray-300: #dfe3e8;
+   --color-gray-400: #c4cdd5;
+   --color-gray-500: #919eab;
+   --color-gray-600: #637381;
+   --color-gray-700: #454f5b;
+   --color-gray-800: #212b36;
+   --color-gray-900: #161c24;
+}
+
+/* Accent theme overrides for clean emerald/teal branding matching palette.primary.main (#00A76F) */
+:root {
+   --primary-accent: #00a76f;
+   --primary-accent-dark: #007867;
+}
+
+.w-color-sketch {
+   --sketch-background: #323232 !important;
+}

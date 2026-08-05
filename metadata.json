@@ -1,0 +1,10 @@
+{
+  "name": "QR Toolkit",
+  "description": "Comprehensive QR code generator, camera scanner, safety validator, batch tools, and custom styling suite.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
